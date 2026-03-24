@@ -11,7 +11,16 @@ import {
 } from 'lucide-react';
 
 // --- Firebase 初始化配置 ---
-const firebaseConfig = JSON.parse(__firebase_config);
+const firebaseConfig = {
+  apiKey: "AIzaSyBCIx4muEH2gUxnw0xMuresXoW-fp0dSC4",
+  authDomain: "tonghuasenlin-booking.firebaseapp.com",
+  projectId: "tonghuasenlin-booking",
+  storageBucket: "tonghuasenlin-booking.firebasestorage.app",
+  messagingSenderId: "580548364600",
+  appId: "1:580548364600:web:8d8ca96cfd139fe202d9cd",
+  measurementId: "G-X1LZK7ZQES"
+};
+const app = initializeApp(firebaseConfig);
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const db = getFirestore(app);
