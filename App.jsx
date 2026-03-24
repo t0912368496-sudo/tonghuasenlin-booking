@@ -11,14 +11,14 @@ import {
 } from 'lucide-react';
 
 // --- Firebase 初始化配置 ---
+// --- Firebase 初始化配置 ---
 const firebaseConfig = {
-  apiKey: "AIzaSyBCIx4muEH2gUxnw0xMuresXoW-fp0dSC4",
-  authDomain: "tonghuasenlin-booking.firebaseapp.com",
-  projectId: "tonghuasenlin-booking",
-  storageBucket: "tonghuasenlin-booking.firebasestorage.app",
-  messagingSenderId: "580548364600",
-  appId: "1:580548364600:web:8d8ca96cfd139fe202d9cd",
-  measurementId: "G-X1LZK7ZQES"
+  apiKey: "你的API金鑰",
+  authDomain: "你的專案網址",
+  projectId: "你的專案ID",
+  storageBucket: "你的儲存空間",
+  messagingSenderId: "你的發送ID",
+  appId: "你的APP ID"
 };
 const app = initializeApp(firebaseConfig);
 const app = initializeApp(firebaseConfig);
